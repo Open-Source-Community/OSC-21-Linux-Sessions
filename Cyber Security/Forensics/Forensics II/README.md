@@ -1,5 +1,5 @@
 # OSC linux Meeting - Forensics II - STEGANOGRAPHY.
-##### Session Moderator: Ahmed Ayman.
+##### Session Moderator: [Ahmed Ayman](https://github.com/a7medayman6).
 
 ## What is Steganography?
 
