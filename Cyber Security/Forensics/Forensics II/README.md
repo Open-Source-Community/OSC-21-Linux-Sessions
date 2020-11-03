@@ -172,6 +172,6 @@ b4,abgr,msb,xy      .. text: "EO%O#/c/2/C_e_q"
 ```bash
 zsteg challenge0/husky.png --lsb
 ```
-
+flag: picoCTF{r34d1ng_b37w33n_7h3_by73s}
 
 > Session Moderator: Ahmed Ayman.
