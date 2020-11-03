@@ -91,7 +91,7 @@ zsteg --help
 ```
 
 
-### Zsteg
+### Stegcracker
 
 - Steganography brute-force utility to uncover hidden data inside files
 
