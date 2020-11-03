@@ -39,10 +39,10 @@ this image is not flagged as a threat by detection software and applications.
 
 ### And many many others types
 
-	-Masking and filtering
-	-Redundant Pattern Encoding
-	-Encrypt and Scatter
-	-Algorithms and transformations
+- Masking and filtering
+- Redundant Pattern Encoding
+- Encrypt and Scatter
+- Algorithms and transformations
 
 
 ## TOOLS
@@ -132,19 +132,22 @@ binwalk -e <file> #extract
 man binwalk
 binwalk -h
 ```
+### There are tons of online steganography tools, you can find some of them in the resources file.
 
 ## Example Challenges:
 
 > Reading Between the Eyes | Picoctf2018
-	
+> Problem: "Stego-Saurus hid a message for you in this image, can you retreive it?"
+> Hints: "Maybe you can find an online decoder?"
 1. download the image.
+![husky.png](Challenge0/husky.png)
 2. run file command.
 ```bash
 file husky.png # husky.png: PNG image data, 2140 x 2232, 8-bit/color RGBA, non-interlaced
 ```	
 3. it's PNG so let's tryout ZSTEG.
 ```bash
-zsteg husky.png 
+zsteg challenge0/husky.png
 ```
 ```
 b1,r,lsb,xy         .. text: "^5>c[rvyzrf@"
@@ -167,6 +170,8 @@ b4,abgr,msb,xy      .. text: "EO%O#/c/2/C_e_q"
 -- aditional step to test zsteg
 5. now that we now it's embeded using lsb algorithm we can use 
 ```bash
-zsteg husky.png --lsb
+zsteg challenge0/husky.png --lsb
 ```
 
+
+> Session Moderator: Ahmed Ayman.
