@@ -1,4 +1,5 @@
 # OSC linux Meeting - Forensics II - STEGANOGRAPHY.
+##### Session Moderator: Ahmed Ayman.
 
 ## What is Steganography?
 
@@ -174,4 +175,4 @@ zsteg challenge0/husky.png --lsb
 ```
 flag: picoCTF{r34d1ng_b37w33n_7h3_by73s}
 
-> Session Moderator: Ahmed Ayman.
+
