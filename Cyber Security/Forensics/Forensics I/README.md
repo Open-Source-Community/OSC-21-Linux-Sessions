@@ -13,25 +13,25 @@
 
 1. What are file extensions?
 
- ... File extensions are what tell us what kind of file this is.
+ 	File extensions are what tell us what kind of file this is.
 
- ... i.e [jpg, png, txt, zip, exe], specifying whether this file is an image, an archive, an executbale, etc.
+ 	i.e [jpg, png, txt, zip, exe], specifying whether this file is an image, an archive, an executbale, etc.
 
 2. How does the system know this file type?
 
-... Every file has a format which tells the system how to interpret the data included in it.
+	Every file has a format which tells the system how to interpret the data included in it.
 
-... Through File Signatures aka. (File Magic Numbers), they are a specific sequence of hexadecimal characters being unique for each type of file,
+	Through File Signatures aka. (File Magic Numbers), they are a specific sequence of hexadecimal characters being unique for each type of file,
 
-... Ex: [JPEG. FF D8 FF E0 00 10 4A 46 49 46 00 01 , PNG. 89 50 4E 47 0D 0A 1A 0A , EXE. 4D 5A , etc..]
+	Ex: [JPEG. FF D8 FF E0 00 10 4A 46 49 46 00 01 , PNG. 89 50 4E 47 0D 0A 1A 0A , EXE. 4D 5A , etc..]
 
 3. How to identify and display them?
 
-... There are tools that can be used to identify them such as [hexdump, hexeditor, file].
+	There are tools that can be used to identify them such as [hexdump, hexeditor, file].
 
 4. Why do we look into them?
 
-... There are several cases that the attacker will corrupt visible data in order to hide secret data or details on his fingerprints, as Digital Forensics Experts we use these tools to identify the type of corrupted file to try and extract these secret data the attacker is trying to hide.
+	There are several cases that the attacker will corrupt visible data in order to hide secret data or details on his fingerprints, as Digital Forensics Experts we use these tools to identify the type of corrupted file to try and extract these secret data the attacker is trying to hide.
 
 #### Hex Dump
 
@@ -95,24 +95,24 @@ file [Option] <file-path>
 
 1. What are Meta Data?
 
-... Meta Data are data that describes other data and they are embedded in files containing addtional information and description.
+	Meta Data are data that describes other data and they are embedded in files containing addtional information and description.
 
 2. What kind of data?
 
-- An Image for example can contain headers like:-
+	- An Image for example can contain headers like:-
 
-..* Resolution of the image
-..* Location of where the image was taken
+	1. Resolution of the image
+	2. Location of where the image was taken
 
 > There are more of meta data headers than can be integrated in files, along with custom headers.
 
 3. How to display them?
 
-... The most popular tool used is Exiftool.
+	The most popular tool used is Exiftool.
 
 4. Why do we look into?
 
-... as stated earlier, they can contain the location of where the image was taken, custom headers can also contain sensitive information, software/hardware used to make the file, time of creation and time of editing, etc..
+	as stated earlier, they can contain the location of where the image was taken, custom headers can also contain sensitive information, software/hardware used to make the file, time of creation and time of editing, etc..
 
 #### Exiftool 
 
@@ -252,7 +252,7 @@ Megapixels                      : 0.332
 
 4. We can clearly see there are 2 headers one "Current IPTC Digest" and one "Copyright Notice".
 
-... the problem stated that the flag will be visible in the form of md5 hash which is created and not translated meaning it only goes one way not like encodings, we can check in an online hash database if this hash is present in their databases but there was no luck so submitting both md5 is the only way, the first was wrong submission but the second turned out to be the flag.
+	the problem stated that the flag will be visible in the form of md5 hash which is created and not translated meaning it only goes one way not like encodings, we can check in an online hash database if this hash is present in their databases but there was no luck so submitting both md5 is the only way, the first was wrong submission but the second turned out to be the flag.
 
 flag: b1a1f2855d2428930e0c9c4ce10500d5
 
