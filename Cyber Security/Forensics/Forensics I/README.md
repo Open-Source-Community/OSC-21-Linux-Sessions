@@ -45,11 +45,11 @@ sudo apt install bsdmainutils
 > Usage
 ```bash
 man hd
-hd __or__ hexdump [Option] <file-path> 
+hexdump [Option] <file-path> 
 ```
 > Extracting Hex Dump Of File
 ```bash
-hd __or__ hexdump -Cv <file-path>
+hexdump -Cv <file-path>
 # there are several options for use consult the man pages
 ```
 
