@@ -12,7 +12,7 @@
 - [ ] Tar
 - [ ] Gzip
 
-## User, Groups, and Permissions 
+## Users, Groups, and Permissions 
 
 - [ ] users 
 - [ ] groups

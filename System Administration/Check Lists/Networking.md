@@ -1,9 +1,4 @@
-# SESSION 1 CHECK LIST 
-
-## Network and Firewall
-
-
-moderator > Akram
+# Network and Firewall
 
 ## Essential Networking Concepts
 
@@ -22,9 +17,8 @@ moderator > Akram
 - [ ] Network Protocols
 - [ ] Ports
 
-moderator > ayman hassan
 
-### Practical Networking Commands
+## Practical Networking Commands
 
 - [ ] ssh
 - [ ] ping 

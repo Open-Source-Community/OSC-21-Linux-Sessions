@@ -17,7 +17,3 @@
 - [ ] Break and Continue statements
 - [ ] Functions in BASH
 - [ ] The Fork Bomb
-
-
-moderator > Thoraia
-
