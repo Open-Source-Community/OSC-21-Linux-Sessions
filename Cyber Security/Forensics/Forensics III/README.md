@@ -53,12 +53,20 @@ okay let's see that dd file
 sudo testdisk animals.dd
 ```
 ![proceed](/pictures/proceed.png)
+
 as we are just retriving info not fixing something we would go with the detected
+
 ![none](/pictures/none.png)
+
 we would choose the advanced
+
 ![undelete](/pictures/undelete.png)
+
 it seems like nothing is found yet so maybe it was deleted so let's try undelete
+
 ![deleted files](/pictures/deletedfiles.png)
+
 indeed it was deleted now retrieve the picture to see the flag
 and FINALLYY here it is
+
 ![the flag](/pictures/theflag.jpg)
