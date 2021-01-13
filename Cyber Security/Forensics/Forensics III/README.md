@@ -67,6 +67,7 @@ it seems like nothing is found yet so maybe it was deleted so let's try undelete
 ![deleted files](/pictures/deletedfiles.png)
 
 indeed it was deleted now retrieve the picture to see the flag
+
 and FINALLYY here it is
 
 ![the flag](/pictures/theflag.jpg)
