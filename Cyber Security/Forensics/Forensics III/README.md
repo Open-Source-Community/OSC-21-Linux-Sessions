@@ -56,7 +56,7 @@ sudo testdisk animals.dd
 
 as we are just retriving info not fixing something we would go with the detected
 
-![none](pictures/none.png)
+![None](pictures/None.png)
 
 we would choose the advanced
 
