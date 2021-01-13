@@ -52,7 +52,7 @@ okay let's see that dd file
 ```bash
 sudo testdisk animals.dd
 ```
-![proceed](/pictures/proceed.png)
+![proceed](pictures/proceed.png)
 
 as we are just retriving info not fixing something we would go with the detected
 
