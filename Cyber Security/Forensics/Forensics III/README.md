@@ -8,9 +8,9 @@ it is a bit by bit exact copy of the hard drive / device
 disk images are used for different reasons like backup or disk recovery sometimes
 
 ## Disk Imaging Types.
-1. imaging
+1. **imaging** : 
 it is a bit by bit exact copy of the device to an image (file) located anywhere as long as there is enough space. that enables one disk to carry more than one image unlike cloning
-2. cloning
+2. **cloning** : 
 it is a bit by bit exact copy of the device A to another device B, so you can't clone more than 1 device to the same device
 
 ## How to make a disk image?
