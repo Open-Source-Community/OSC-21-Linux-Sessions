@@ -11,15 +11,15 @@ Status: Completed
 
 ## Content
 
-[Diving with the Whale - Docker  Day I - Intro & Installation](day1)
+[Diving with the Whale - Docker  Day I - Intro & Installation](day1.pdf)
 
-[Diving with the Whale - Docker  Day II - Containers & Images Management](day2)
+[Diving with the Whale - Docker  Day II - Containers & Images Management](day2.pdf)
 
-[Diving with the Whale - Docker  Day III - Persisting Data & Docker Files ](day3)
+[Diving with the Whale - Docker  Day III - Persisting Data & Docker Files ](day3.pdf)
 
-[Diving with the Whale - Docker  Day IV - Docker Networking, Entry Points, and more.](day4)
+[Diving with the Whale - Docker  Day IV - Docker Networking, Entry Points, and more.](day4.pdf)
 
-[Diving with the Whale - Docker  Day V - Docker Compose and Multi-Container Apps](day5)
+[Diving with the Whale - Docker  Day V - Docker Compose and Multi-Container Apps](day5.pdf)
 
 ## Hands-On Projects
 
